@@ -12,6 +12,7 @@ def banner():
     print(f'n{stars}\n{message}\n{stars}\n')
 
 def instructions():
+    """ Display instructions to user """
     print('Enter a sentence and I will convert it to camelCase for you!')
 
           
