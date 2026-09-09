@@ -10,11 +10,16 @@ def banner():
     message = 'Awesome camelcase program!'
     stars = '*' * len(message)
     print(f'n{stars}\n{message}\n{stars}\n')
+
+def instructions():
+    print('Enter a sentence and I will convert it to camelCase for you!')
+
           
 
 
 def main():
     banner()
+    instructions()
     sentence = input('Enter your sentence: ')
     output = camelcase(sentence)
     print(output)
