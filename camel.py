@@ -1,3 +1,5 @@
+""" Camelcase program """
+
 def camelcase(sentence):
     #convert sentence to camelCase
     title_case = sentence.title()#uppercase first letter of each word
